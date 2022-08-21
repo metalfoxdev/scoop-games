@@ -1,0 +1,23 @@
+	{
+		"version": "4.2.4-patch1",
+		"description": "An open-source, mod-friendly Android+Desktop remake of Civ V, made with LibGDX",
+		"license": {
+			"identifier": "MPL-2.0",
+			"url": "https://github.com/yairm210/Unciv/blob/master/LICENSE"
+		},
+		"url": "https://github.com/yairm210/Unciv/releases/download/4.2.4-patch1/Unciv-Windows64.zip",
+		"hash": "6d64926885f8ed0b00fcfc211a22a43bb4e044ea2769152c29a8b03b82abfb9c",
+		"bin": "Unciv.exe",
+		"shortcuts": [
+			[
+				"Unciv.exe",
+				"Unciv"
+			]
+		],
+		"checkver": {
+			"github": "https://github.com/yairm210/Unciv"
+		},
+		"autoupdate": {
+			"url": "https://github.com/yairm210/Unciv/releases/download/$version/Unciv-Windows64.zip"
+		}
+	}
